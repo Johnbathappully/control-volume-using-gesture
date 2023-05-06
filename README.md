@@ -1,5 +1,18 @@
+ 
+
+# mediapipe
+
+findHands method--------------- that processes the input image and detects hands. If hands are detected and the draw parameter is set to True, the hand landmarks and connections are drawn on the image.
+
+findPosition method-------------- that extracts the positions of the hand landmarks, creates a bounding box around the hand, and optionally draws circles on the landmarks and a bounding box around the hand.
+
+ fingersUp method ---------------that determines whether each finger is up (extended) or down (folded) by comparing the positions of their landmarks.
+
+findDistance method---------------- that calculates the distance between two landmarks and optionally draws circles on the landmarks, a line connecting them, and a circle at the midpoint.
+
+
 # control-volume-using-gesture
-use Gesture Control to change the volume of a computer. application of hand tracking and then we will use the hand landmarks to find gestures of our hand to change the volume. This is module-based 
+use Gesture Control to change the volume of a computer. application of hand tracking and then we will use the hand landmarks to find gestures of our hand to change the volume.
 
 
 ##Increasing Volume
