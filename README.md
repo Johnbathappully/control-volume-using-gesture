@@ -12,9 +12,8 @@ findDistance method---------------- that calculates the distance between two lan
 
 
 # control-volume-using-gesture
-use Gesture Control to change the volume of a computer. application of hand tracking and then we will use the hand landmarks to find gestures of our hand to change the volume.
 
-steps 
+Steps 
 
  Define the width and height of the camera feed (wCam and hCam).
 
@@ -49,7 +48,7 @@ Display the current system volume and set the color based on the pinky finger st
 
 control-mouse-using-fingers
 
-steps
+Steps
 
 Start an infinite loop for continuous frame processing. Read a frame from the video capture object and find the hand landmarks using the hand detector.
 
