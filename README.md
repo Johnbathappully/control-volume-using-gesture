@@ -24,7 +24,7 @@ Get a list of which fingers are up. Draw a rectangle on the frame to define the 
 
 If the index finger is up and the middle finger is down, enable the "Moving Mode".Convert the index finger tip's coordinates to screen coordinates
 .
-Smooth the movement of the mouse by averaging the previous and current locations.Move the mouse and draw a circle at the index finger tip's location.
+Smooth the movement of the mouse(reduce jitter) by averaging the previous and current locations.Move the mouse and draw a circle at the index finger tip's location.
 Update the previous location with the current location.
 
 If both index and middle fingers are up, enable the "Clicking Mode".Find the distance between the index and middle finger tips and draw a line between them.
